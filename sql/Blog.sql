@@ -1,0 +1,7 @@
+CREATE TABLE `blog` (
+        `id` INT AUTO_INCREMENT PRIMARY KEY,
+        `Blog` id,
+        `title` VARCHAR,
+        `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    ) ENGINE=InnoDB;
