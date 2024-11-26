@@ -1,0 +1,9 @@
+/* Styles for the Blog module */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
